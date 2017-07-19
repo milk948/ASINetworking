@@ -1,0 +1,9 @@
+platform :ios, '7.0'
+
+def pods
+pod 'ASIHTTPRequest'
+pod 'MBProgressHUD'
+end
+target 'ASINetworking' do
+pods
+end
